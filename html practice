@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  <title>Learning to code </title>   </head>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <h2 style= "font-family: fantasy; text-align:center;"> My HTML notes</h2>
+  <p> I know there will always be frustrations, but I <strong> <em>hate </em> the daily anxiety </strong>  with my current job.
+
+<p> <h3>Definitions</h3>
+<p style="color: lightgreen;"> Markup: Text with special meaning, normally uses tags (i.e italics, bold)
+<br> Whitespace: Spaces, tabs, and line breaks in html, need to use tags to create the effect on the browser.
+<br> Types of elements: block, inline, void
+<br> Attribute: added inside start tag, giving element more meaning; consists of: name = "value"
+
+</p> <h4>Notes</h4>
+<ul>
+  <li>URLs require http, https, file as the protocol
+  <li> images can use relative URLs, pay attn to syntax <img src="Image URL here" alt="A description of the image">
+  <li> help : <a href="https://validator.w3.org/nu/#textarea">validator</a>
+  <li> selector (html) + declaration (how to modify element) = CSS ruleset
+</ul>
+
+<h4>Practice with elements and attributes</h4>
+<div class="flexbox";>
+  <div class="box";> This is a <mark>story</mark> all about how my life <sub>got flipped</sub> <sup>turned upside down</sup> </div>
+  <div class="box";>We face <sup>stormy weather</sup>
+    <br>Rain's <sup>pour</sup><sub>ing</sub> but it <em>never lasts</em>
+    <br> Only gets <strong> better from here </strong> </div>
+    <br> <div class="box";> <img src="https://vignette.wikia.nocookie.net/drama/images/b/bc/ATEEZ6.jpg/revision/latest/scale-to-width-down/112?cb=20190531060305&path-prefix=es" alt="Ateez"> </div>
+</div>
+
+<p><h5>Lists</h5>
+<ol>
+  <li>learn programming
+    <ul>
+      <li> HTML:
+        <a href="https://www.udacity.com"> Udacity </a>
+      <li> C: <a href="https://www.youtube.com/watch?v=iRkKEHybf9M"> Harvard CS50  </a>
+      <li> python
+    </ul>
+  <li>get certificate
+  <li>job search anywhere in world
+  <li>resign from current job
+</ol>
+<p>
+  </body>
+</html>
