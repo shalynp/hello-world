@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+  <title>Shalyn Philip</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://www.zastavki.com/pictures/1920x1200/2011/Cities_Old_city_028466_.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: 'Roboto';
+    }
+    p{
+      font-size: 22px;
+      background-color: rgba(0,0,0,0.6);
+      padding: 10px 0 10px 0;
+      font-family: 'Roboto';
+    }
+    input{
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"]{
+     color: white;
+     background: red;
+    }
+  </style>
+</head>
+<body>
+  <img src="pic">
+  <p>Hi! I'm Shalyn, nice to meet you.</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
